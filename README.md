@@ -12,3 +12,12 @@ Instalación:
 1) Descargar la gamemode, agregar las carpetas faltante.
 2) Colocar la base de datos MySQL con el nombre gm0.
 3) Configurar sus datos SQL desde la carpeta \pawno\include\kratoz\definiciones.inc.
+
+Versión 0.0.1: 19/09/2019.
+- Sistema de login + registro.
+- 10 preguntas como test de rol.
+- Configuración de Gamemode para el uso de MySQL.
+- Registro mediante correo, almacenando 3 personajes por cuenta.
+- Animación de acuerdo a la cantidad de texto hablado ingame.
+- Agregado comando /creditos.
+- Agregado el encriptado para seguridad de contraseñas "bcrypt".
