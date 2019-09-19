@@ -1,7 +1,7 @@
 /*
 
 Respetar los creditos a Kratoz - Comunidad: OkPlayers Juego de Rol.
-VersiÃ³n: 0.0.1
+Versión: 0.0.1
 Actualizado: 19/09/2019
 
 */
@@ -35,52 +35,52 @@ enum _examenrol{
 };
 new TestRol[10][_examenrol]={
 	{"El death Match(DM)...",//1
-	"A) EstÃ¡ permitido en el servidor hasta una cierta hora.\n\
+	"A) Está permitido en el servidor hasta una cierta hora.\n\
 	B) Es cuando asisto con mi pandilla a matar a la pandilla por problemas OOC.\n\
-	C) Es la acciÃ³n violenta dentro del servidor teniendo motivos para ejecutarlo.\n\
-	D) Es matar sin razÃ³n a los administradores.", 1},
-	{"Â¿Que ejemplo no es PG?",//2
-	"A) Rolear dar un puÃ±etazo a un usuario y matarlo de un solo golpe.\n\
+	C) Es la acción violenta dentro del servidor teniendo motivos para ejecutarlo.\n\
+	D) Es matar sin razón a los administradores.", 1},
+	{"¿Que ejemplo no es PG?",//2
+	"A) Rolear dar un puñetazo a un usuario y matarlo de un solo golpe.\n\
 	B) Tirarte de un cuarto piso de un edificio y rolear saber caer bien.\n\
 	C) Estoy roleando con mi mafia en mi coche de mafioso, mientras fumo.\n\
 	D) Saltar para evitar cansarte.", 2},
-	{"Â¿Que ejemplo no es MG?",//3
-	"A) Le hablo por teamspeak a mis amigos que que irÃ© a comer.\n\
+	{"¿Que ejemplo no es MG?",//3
+	"A) Le hablo por teamspeak a mis amigos que que iré a comer.\n\
 	B) Llamo a mis amigos IC para que conecten al whatsapp por /b.\n\
-	C) Compro Marihuana y le regalo a mi compaÃ±ero de pandilla.\n\
-	D) Veo por foro que quieren matar a un compaÃ±ero, se lo comunico IC.", 2},
-	{"Â¿Que es IC?",//4
-	"A) La informaciÃ³n que he optenido OOC para uso IC.\n\
-	B) Toda informaciÃ³n de mi personaje ingame.\n\
-	C) InformaciÃ³n de mi vida privada.\n\
-	D) Toda informaciÃ³n ooc dicha ingame.", 1},
+	C) Compro Marihuana y le regalo a mi compañero de pandilla.\n\
+	D) Veo por foro que quieren matar a un compañero, se lo comunico IC.", 2},
+	{"¿Que es IC?",//4
+	"A) La información que he optenido OOC para uso IC.\n\
+	B) Toda información de mi personaje ingame.\n\
+	C) Información de mi vida privada.\n\
+	D) Toda información ooc dicha ingame.", 1},
 	{"Roleo de pandillero y...",//5
 	"A) Llevo el rol que quiero tener para mi pj, respetando las normativas.\n\
 	B) Compro marihuana para fumarla ooc.\n\
 	C) Puedo asesinar a quien se me pegue la gana.\n\
-	D) SegÃºn normativa, tengo que usar un savana o glendale", 0},
+	D) Según normativa, tengo que usar un savana o glendale", 0},
 	{"Un administrador me banneo",//6
 	"A) Posteo por foro que es una injusticia, y pido desban.\n\
-	B) Solicito a un administrador dueÃ±o tome mi caso.\n\
+	B) Solicito a un administrador dueño tome mi caso.\n\
 	C) Posteo mi descargo en el foro y espero que me respondan.\n\
 	D) Posteo mi descargo en el foro muchas veces para que vean mi caso.", 2},
-	{"Â¿Que ejemplo es buen anuncio?",//7
+	{"¿Que ejemplo es buen anuncio?",//7
 	"A) Compro escoba de volar.\n\
 	B) Joven emprendedor busca empleo en el servidor.\n\
-	C) Se realizan trabajos de pintado vehÃ­cular, a solo $200.\n\
-	D) Compro DisKo multimedia para escuchar mÃºsica desde internet.", 2},
-	{"Â¿Que ejemplo es buen rol?",//8
-	"A) /me se verÃ­a a Vinny como sangrarÃ­a por la pierna.\n\
-	B) /me mira la hora de su reloj de muÃ±eca.\n\
-	C) /me [Sonido-Coche] Se ecucharÃ­a algo mal el motor.\n\
+	C) Se realizan trabajos de pintado vehícular, a solo $200.\n\
+	D) Compro DisKo multimedia para escuchar música desde internet.", 2},
+	{"¿Que ejemplo es buen rol?",//8
+	"A) /me se vería a Vinny como sangraría por la pierna.\n\
+	B) /me mira la hora de su reloj de muñeca.\n\
+	C) /me [Sonido-Coche] Se ecucharía algo mal el motor.\n\
 	D) /do Usa el comando /comprar para que compres algo colega.", 1},
-	{"Â¿Que ejemplo es CJ?",//9
+	{"¿Que ejemplo es CJ?",//9
 	"A) Un negro empieza a vender coca, y me la roba.\n\
 	B) Subirme a los coches sin rol previo para arrancar.\n\
 	C) Atropellar a un jugador realizando Car Jugador muerto.\n\
 	D) Subir a los coches sin rol previo para quitarlo.", 3},
-	{"Si un policÃ­a me apunta...",//10
-	"A) RolearÃ­a agacharme y gatear para poder escaparme.\n\
+	{"Si un policía me apunta...",//10
+	"A) Rolearía agacharme y gatear para poder escaparme.\n\
 	B) Levantar las manos y correr evitando que me caigan las balas.\n\
 	C) Resistirse al arresto ya que si muevo un pelo me puede costar la vida.\n\
 	D) Rendirte, y hacer caso a lo que ordene el oficial.", 3}
@@ -89,7 +89,7 @@ new TestRol[10][_examenrol]={
 public OnGameModeInit()//Inicia el servidor lo primero que carga aparte del main
 {
 	SendRconCommand("hostname "#NOMBRE_SV"");
-	SendRconCommand("language EspaÃ±ol");
+	SendRconCommand("language Español");
 	MySQL = mysql_connect("127.0.0.1", CuentaMysql, ContraMysql, BaseMysql);
 	if(mysql_errno() != 0){
 		print("[Consola-ALERTA]: No se pudo conectar.");
@@ -136,7 +136,7 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	if(Ingreso[playerid] == 1){//Guardamos lo que tenemos del pj para evitar perder posiciÃ³n
+	if(Ingreso[playerid] == 1){//Guardamos lo que tenemos del pj para evitar perder posición
 		GetPlayerPos(playerid, InfoJugador[playerid][Posicion_X], InfoJugador[playerid][Posicion_Y], InfoJugador[playerid][Posicion_Z]);
 		new query[200];
 		mysql_format(MySQL,query, sizeof(query), "UPDATE `cuentas` SET `Posicion_X`='%f',`Posicion_Y`='%f',`Posicion_Z`='%f' WHERE (`ID`='%d')", 
@@ -178,7 +178,7 @@ public OnVehicleDeath(vehicleid, killerid)
 
 public OnPlayerText(playerid, text[])
 {
-	if(Ingreso[playerid] != 1) return MensajeError(playerid, "Debes logear primero para poder enviar algÃºn texto."), 0;
+	if(Ingreso[playerid] != 1) return MensajeError(playerid, "Debes logear primero para poder enviar algún texto."), 0;
 	else{
 		new
 			string[180],
@@ -186,7 +186,7 @@ public OnPlayerText(playerid, text[])
 
 		K_Format(string,"%s: %s",NombreDePJ(playerid), text);
 		ProxDetector(20,playerid,string,-1,COLOR_Hablar,COLOR_Hablar2,COLOR_Hablar3,COLOR_Hablar4);
-		//Le damos la AnimaciÃ³n para hablar.
+		//Le damos la Animación para hablar.
 		if (len > 2){
 			new
 				animi = GetPlayerAnimationIndex(playerid);
@@ -210,7 +210,7 @@ CALLBACK: PararAnimChat (playerid){
 	TimerPlayer[playerid][TIMER_HABLAR] = INVALID_TIMER;
 }
 //%s es para string o cadenas de texto
-//%d Es para NÃºmero | %i Es para enteros
+//%d Es para Número | %i Es para enteros
 //%f Es para Float cordenadas, lugares, x, y ,z angulos, etc.
 public OnPlayerCommandReceived(playerid,cmdtext[]){
 	printf("%s: %s", NombreJ(playerid), cmdtext);
@@ -365,12 +365,12 @@ stock MostrarDialog_Ok(playerid, dialogid, caso){
 		}
 		case d_Registro:{
 			switch(caso){
-				//case 0: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro", "Bienvenido a "#NOMBRE_SV"\nÂ¿Cual serÃ¡ su correo?", "Siguiente", "Salir");
-				case 0: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro", "Â¿Su contraseÃ±a?\nRecuerde que debe colocar como mÃ­nimo 5 carÃ¡cteres.", "Siguiente", "Salir");
+				//case 0: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro", "Bienvenido a "#NOMBRE_SV"\n¿Cual será su correo?", "Siguiente", "Salir");
+				case 0: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro", "¿Su contraseña?\nRecuerde que debe colocar como mínimo 5 carácteres.", "Siguiente", "Salir");
 				case 1: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_LIST, "Registro-Sexo", "1) Hombre\n2) Mujer", "Siguiente", "Salir");
 				case 2: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_LIST, "Registro-Procedencia", "1) Los santos\n2) Las venturas\n3) San fierro", "Siguiente", "Salir");
-				case 3: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro-Edad", "Â¿Cual es la edad para su personaje?", "Siguiente", "Salir");
-				case 4: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro-Nombre", "Â¿Cual es el Nombre_Apellido para su personaje?", "Crear", "Salir");
+				case 3: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro-Edad", "¿Cual es la edad para su personaje?", "Siguiente", "Salir");
+				case 4: MostrarDialog(playerid, d_Registro, DIALOG_STYLE_INPUT, "Registro-Nombre", "¿Cual es el Nombre_Apellido para su personaje?", "Crear", "Salir");
 			}
 		}
 		case d_TestRol:{
@@ -379,14 +379,14 @@ stock MostrarDialog_Ok(playerid, dialogid, caso){
 				case 10:{
 					new str[200];
 					K_Format(str, "Correctas: %d.\nIncorrectas: %d.\nResultado: %s", ResultadoTestRol[playerid], 10-ResultadoTestRol[playerid], ResultadoTestRol[playerid] >=8 ? ("APROBADO"):("DESAPROBADO"));
-					MostrarDialog(playerid, d_TestRol, DIALOG_STYLE_MSGBOX, "ExÃ¡men de rol", str, "Siguiente", "Salir");
+					MostrarDialog(playerid, d_TestRol, DIALOG_STYLE_MSGBOX, "Exámen de rol", str, "Siguiente", "Salir");
 				}
 			}
 		}
 		case d_Ingreso:{
 			switch(caso){
 				case 0:{
-					MostrarDialog(playerid, d_Ingreso, DIALOG_STYLE_PASSWORD, "Ingreso", "Bienvenido a "#NOMBRE_SV"\nÂ¿Cual es su contraseÃ±a?", "Ingresar", "Salir");
+					MostrarDialog(playerid, d_Ingreso, DIALOG_STYLE_PASSWORD, "Ingreso", "Bienvenido a "#NOMBRE_SV"\n¿Cual es su contraseña?", "Ingresar", "Salir");
 				}
 				case 1:{
 					new query[300], row;
@@ -475,20 +475,20 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				else MostrarDialog_Ok(playerid, d_LoginEmail, 0);
 			}
 			else{
-				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen dÃ­a, hasta pronto.");
+				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen día, hasta pronto.");
 				Kick_PJ(playerid);
 			}
 		}
 		case d_Registro:{
 			switch(GetPVarInt(playerid, "PasoDialog")){
-				case 0:{//Pedido de ContraseÃ±a
+				case 0:{//Pedido de Contraseña
 					if(response){
 						if(5<strlen(inputtext)<50){
 							EscribirCadena(InfoJugador[playerid][Contra], inputtext);
 							MostrarDialog_Ok(playerid, d_TestRol, 0);
 						}
 						else{
-							Mensaje_SV(playerid, "Solo aceptamos que el correo tenga entre 5 a 50 carÃ¡cteres.");
+							Mensaje_SV(playerid, "Solo aceptamos que el correo tenga entre 5 a 50 carácteres.");
 							MostrarDialog_Ok(playerid, d_Registro, 0);
 						}
 					}
@@ -503,7 +503,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						MostrarDialog_Ok(playerid, d_Registro, 2);
 					}
 					else{
-						Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen dÃ­a, hasta pronto.");
+						Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen día, hasta pronto.");
 						Kick_PJ(playerid);
 					}
 				}
@@ -525,7 +525,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 							MostrarDialog_Ok(playerid, d_Registro, 4);
 						}
 						else{
-							Mensaje_SV(playerid, "Debes colocar una edad vÃ¡lido entre 18 a 99 aÃ±os.");
+							Mensaje_SV(playerid, "Debes colocar una edad válido entre 18 a 99 años.");
 							MostrarDialog_Ok(playerid, d_Registro, 3);
 						}
 					}
@@ -540,7 +540,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 							mysql_pquery(MySQL, query, "VerificarUsuario","dd", playerid, 2);
 						}
 						else{
-							Mensaje_SV(playerid, "Debes colocar un nombre vÃ¡lido de 3 a 25 carÃ¡cteres.");
+							Mensaje_SV(playerid, "Debes colocar un nombre válido de 3 a 25 carácteres.");
 							MostrarDialog_Ok(playerid, d_Registro, 4);
 						}
 					}
@@ -568,7 +568,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 			}
 			else{
-				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen dÃ­a, hasta pronto.");
+				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen día, hasta pronto.");
 				Kick_PJ(playerid);
 			}
 		}
@@ -607,7 +607,7 @@ public OnPlayerClickTextDraw(playerid, Text:clickedid){
 				}
 				MirandoTextDraw[playerid] = 0;
 				CancelSelectTextDraw(playerid);
-				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen dÃ­a, hasta pronto.");
+				Mensaje_SV(playerid, "Gracias por visitarnos, que tenga buen día, hasta pronto.");
 				Kick_PJ(playerid);
 			}
 		}
